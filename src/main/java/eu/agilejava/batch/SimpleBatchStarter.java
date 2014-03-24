@@ -32,6 +32,7 @@ import javax.inject.Inject;
 
 /**
  * Starter utility class for batch demo.
+ *
  * @author Ivar Grimstad <ivar.grimstad@gmail.com>
  */
 @Dependent
@@ -56,7 +57,6 @@ public class SimpleBatchStarter {
 //
 //      logger.log(Level.INFO, "Status chunk {0}", chunkJobExecution.getBatchStatus());
 //      logger.log(Level.INFO, "Started chunk job with id {0}", chunkJobExecution.getExecutionId());
-
       logger.log(Level.INFO, "All {0}", jobOperator.getJobNames());
    }
 

@@ -10,6 +10,7 @@ import javax.inject.Named;
 
 /**
  * Simple batchlet for batch step demo.
+ *
  * @author Ivar Grimstad (ivar.grimstad@gmail.com)
  */
 @Dependent
@@ -18,9 +19,9 @@ public class SimpleBatchlet extends AbstractBatchlet {
 
    @Inject
    private Logger logger;
-   
-    @Inject
-    private JobContext jobCtx;
+
+   @Inject
+   private JobContext jobCtx;
 
    @Override
    public String process() throws Exception {

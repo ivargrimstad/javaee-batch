@@ -28,6 +28,7 @@ import javax.inject.Named;
 
 /**
  * Simple reader for batch chunk demo.
+ *
  * @author Ivar Grimstad <ivar.grimstad@gmail.com>
  */
 @Named("simpleReader")
@@ -47,6 +48,7 @@ public class SimpleReader extends AbstractItemReader {
 
    /**
     * Reads the next item from array.
+    *
     * @return the next item
     * @throws Exception if read fails
     */

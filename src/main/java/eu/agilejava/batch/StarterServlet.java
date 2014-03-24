@@ -35,6 +35,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * Simple servlet for starting the jobs in batch demo.
+ *
  * @author Ivar Grimstad <ivar.grimstad@gmail.com>
  */
 @WebServlet(name = "StarterServlet", urlPatterns = {"/StarterServlet"})

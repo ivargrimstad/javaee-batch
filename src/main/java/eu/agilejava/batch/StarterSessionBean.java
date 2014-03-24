@@ -31,6 +31,7 @@ import javax.inject.Inject;
 
 /**
  * Simple timer EJB for starting scheduled jobs in batch demo.
+ *
  * @author Ivar Grimstad <ivar.grimstad@gmail.com>
  */
 @Stateless
@@ -38,7 +39,7 @@ public class StarterSessionBean {
 
    @Inject
    private Logger logger;
-   
+
    @Inject
    private SimpleBatchStarter starter;
 
