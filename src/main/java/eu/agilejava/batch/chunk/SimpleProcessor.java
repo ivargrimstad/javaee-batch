@@ -30,8 +30,8 @@ import javax.inject.Named;
  *
  * @author Ivar Grimstad <ivar.grimstad@gmail.com>
  */
-@Named("simpleProcessor")
 @Dependent
+@Named("simpleProcessor")
 public class SimpleProcessor implements ItemProcessor {
 
    @Inject

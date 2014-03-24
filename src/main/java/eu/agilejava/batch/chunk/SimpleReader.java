@@ -31,8 +31,8 @@ import javax.inject.Named;
  *
  * @author Ivar Grimstad <ivar.grimstad@gmail.com>
  */
-@Named("simpleReader")
 @Dependent
+@Named("simpleReader")
 public class SimpleReader extends AbstractItemReader {
 
    @Inject

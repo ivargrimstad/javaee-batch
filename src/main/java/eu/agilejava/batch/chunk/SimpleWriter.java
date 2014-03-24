@@ -31,8 +31,8 @@ import javax.inject.Named;
  *
  * @author Ivar Grimstad <ivar.grimstad@gmail.com>
  */
-@Named("simpleWriter")
 @Dependent
+@Named("simpleWriter")
 public class SimpleWriter extends AbstractItemWriter {
 
    @Inject

@@ -26,6 +26,7 @@ package eu.agilejava.batch;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.ejb.Schedule;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
@@ -44,7 +45,7 @@ public class StarterSessionBean {
    private SimpleBatchStarter starter;
 
    // Uncomment the following line to enable scheduling.
-//   @Schedule(dayOfWeek = "*", month = "*", hour = "9-17", dayOfMonth = "*", year = "*", minute = "*", second = "0", persistent = false)
+   @Schedule(dayOfWeek = "*", month = "*", hour = "9-17", dayOfMonth = "*", year = "*", minute = "*", second = "0", persistent = false)
    public void myTimer() {
       logger.log(Level.INFO, "Timer event: {0}", new Date());
 
